@@ -1,10 +1,13 @@
 package test_git;
 
+import javax.swing.JFrame;
+
 public class test_JFrame {
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
-		System.out.println("HellowWorld!");
+		JFrame f = new JFrame();
+		f.setSize(300,200);
+		f.setVisible(true);
 	}
 
 }
